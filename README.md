@@ -11,23 +11,28 @@ phenocam-code/
 │   ├── 1_auto_label_gcc_extraction.py          # auto labelling and extraction from time series of images
 │   ├── Traffic Camera List - 4326.csv          # traffic camera location and index for city of toronto
 │   └── 2_plot_raw_curve/
-│       ├─ plot_one_month.py                    # plot raw gcc file for one month for one site
+│       ├── plot_one_month.py                    # plot raw gcc file for one month for one site
 │       └──plot_multiple_month.py               # plot raw gcc file for one year for one site
 │   └── 3_key_index_extract/
-│       └──map_prepare.py                       # prepare each site's full year normalized gcc time series with key index
+│       └── map_prepare.py                       # prepare each site's full year normalized gcc time series with key index
 │   └── 4_plot_map/
-│       ├─ metrics_map.py                       # plot map of sos/eos/los/peakdate with color bar
-│       └──gif_continuous_field_map.py          # use interpolation to transfer discrete sites measurement to continous map of gcc flow
+│       ├── metrics_map.py                       # plot map of sos/eos/los/peakdate with color bar
+│       └── gif_continuous_field_map.py          # use interpolation to transfer discrete sites measurement to continous map of gcc flow
 ├── Manual_lable/
-│   ├── manual_label.ipynb                      # jupyter notebook for explaining the manual labelling code in detail
+│   ├── manual_label.ipynb                       # jupyter notebook for explaining the manual labelling code in detail
 │   └── full_code/
-│      └── 2_plot_raw_curve/
-│           ├─ plot_one_month.py                    # plot raw gcc file for one month for one site
-│           └──plot_multiple_month.py               # plot raw gcc file for one year for one site
-│   └── figures/
-└── README.md           # Project documentation
+│      └── with_transformation/                  # full refined code in python for manual labelling with transformation processing pipeline
+│           ├── 1_image_alignment_projective.py
+│           ├── 2_manaul_label_readin.py               
+│           └── 3_gcc.py
+│      └── without_transformation/               # full refined code in python for manual labelling without transformation processing pipeline
+│           ├── 1_manaul_label_readin.py               
+│           └── 2_gcc.py
+│   └── figures/                                 # figures for jupyter notebook
+└── README.md                                    # Project documentation
 
 ---
+
 
 ## 🔧 Installation
 Clone this repo:
