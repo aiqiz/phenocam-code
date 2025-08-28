@@ -42,7 +42,7 @@ The **Auto-labeling pipeline** extracts vegetation indices (GCC) directly from t
 
 ### Workflow
 1. **GCC Extraction**  
-   Run `1_auto_label_gcc_extraction.py` to extract GCC values from image sequences. Prepare datasets of figures to start with.
+   Run `1_auto_label_gcc_extraction.py` to extract GCC values from image sequences. Prepare datasets of figures to start with shown below.
 ![Alt text](readme_figures/auto_directory.png)
 
 2. **Raw Curve Plotting**  
