@@ -5,7 +5,7 @@ The processing workflow includes both **auto-labeling** and **manual-labeling** 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 phenocam-code/
 ├── Auto_label/
@@ -36,12 +36,12 @@ phenocam-code/
 
 
 ## Auto-Labeling
-![Alt text](Manual_label/figures/auto_labelling.png)
+![Alt text](readme_figures/auto_labelling.png)
 The **Auto-labeling pipeline** extracts vegetation indices (GCC) directly from traffic camera time series without manual intervention.  
 
 ### Workflow
 1. **GCC Extraction**  
-   Run `1_auto_label_gcc_extraction.py` to extract GCC values from image sequences.  
+   Run `1_auto_label_gcc_extraction.py` to extract GCC values from image sequences. Prepare datasets of figures to start with.
 
 2. **Raw Curve Plotting**  
    - `plot_one_month.py`: plot raw GCC for one month at a single site.  
@@ -59,7 +59,7 @@ This pipeline is designed for large-scale, automated processing across multiple 
 
 
 ## Manual Labeling
-![Alt text](Manual_label/figures/general_pipeline.png)
+![Alt text](readme_figures/manual_labelling.png)
 The **Manual-labeling pipeline** provides more control and accuracy by allowing manual input during site calibration.  
 
 ### Workflow
