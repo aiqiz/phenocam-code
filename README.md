@@ -36,7 +36,7 @@ phenocam-code/
 
 
 ## Auto-Labeling
-
+![Alt text](Manual_label/figures/auto_labelling.png)
 The **Auto-labeling pipeline** extracts vegetation indices (GCC) directly from traffic camera time series without manual intervention.  
 
 ### Workflow
@@ -59,7 +59,7 @@ This pipeline is designed for large-scale, automated processing across multiple 
 
 
 ## Manual Labeling
-
+![Alt text](Manual_label/figures/general_pipeline.png)
 The **Manual-labeling pipeline** provides more control and accuracy by allowing manual input during site calibration.  
 
 ### Workflow
