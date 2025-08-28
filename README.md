@@ -30,7 +30,8 @@ phenocam-code/
 │           ├── 1_manual_label_readin.py               
 │           └── 2_gcc.py
 │   └── figures/                                # Figures for the Jupyter notebook
-└── README.md                                   # Project documentation
+├── README.md                                   # Project documentation
+└── readme_figures/                             # Readme file figures
 ```
 
 
@@ -42,6 +43,7 @@ The **Auto-labeling pipeline** extracts vegetation indices (GCC) directly from t
 ### Workflow
 1. **GCC Extraction**  
    Run `1_auto_label_gcc_extraction.py` to extract GCC values from image sequences. Prepare datasets of figures to start with.
+![Alt text](readme_figures/auto_directory.png)
 
 2. **Raw Curve Plotting**  
    - `plot_one_month.py`: plot raw GCC for one month at a single site.  
