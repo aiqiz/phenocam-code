@@ -1,6 +1,6 @@
 # Phenocam Code
 
-A collection of scripts and tools for processing PhenoCam images, analyzing vegetation indices, and understanding seasonal metrics (Start of Season, End of Season, and Length of Season).  
+A collection of scripts and tools for processing phenocam images, analyzing vegetation indices, and understanding seasonal metrics (Start of Season, End of Season, and Length of Season).  
 The processing workflow includes both **auto-labeling** and **manual-labeling** pipelines.
 
 ---
